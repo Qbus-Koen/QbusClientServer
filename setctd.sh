@@ -24,7 +24,7 @@ echo 'After=multi-user.target' | sudo tee -a /lib/systemd/system/qbusclient.serv
 echo '' | sudo tee -a /lib/systemd/system/qbusclient.service
 echo '[Service]' | sudo tee -a /lib/systemd/system/qbusclient.service
 echo 'Type=simple' | sudo tee -a /lib/systemd/system/qbusclient.service
-echo 'ExecStart= mono /home/pi/QbusOpenHab/QbusClient/QbusClient.exe '$ipvar' '$uservar' '$passvar' '$snvar'' | sudo tee -a /lib/systemd/system/qbusclient.service
+echo 'ExecStart= mono ~/QbusOpenHab/QbusClient/QbusClient.exe '$ipvar' '$uservar' '$passvar' '$snvar' 10' | sudo tee -a /lib/systemd/system/qbusclient.service
 echo 'Restart=always' | sudo tee -a /lib/systemd/system/qbusclient.service
 echo '' | sudo tee -a /lib/systemd/system/qbusclient.service
 echo '[Install]' | sudo tee -a /lib/systemd/system/qbusclient.service
