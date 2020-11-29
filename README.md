@@ -1,6 +1,6 @@
 # Qbus Client Server for openHAB
 
-![Qbus Logo](https://github.com/QbusKoen/QbusClientServer-Installer/blob/main/images/Logo.JPG)
+![Qbus Logo](images/Logo.JPG)
 
 This is the main repository for the Qbus Client Server application.
 
