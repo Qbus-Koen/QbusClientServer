@@ -13,4 +13,4 @@ The client needs some arguments:
 ## Linux (raspberryPi)
 Here you can find the installer for the Client Server:
 [QbusClientServer-Installer](https://github.com/QbusKoen/QbusClientServer-Installer)
->>>>>>> 86910bc1bb721fe0d804012dc9dbd5bab097f0af
+
