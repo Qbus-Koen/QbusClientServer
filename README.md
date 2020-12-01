@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QbusOpenHab
  This is the openHAB setup for Qbus.
  The binding can't communicate directly to the Qbus controller but uses a client server application.
@@ -56,3 +57,20 @@ Client and server are installed automatically with the script you can find on qb
  
  
  ```
+=======
+# Qbus Client Server for openHAB
+
+![Qbus Logo](images/Logo.JPG)
+
+This is the main repository for the Qbus Client Server application.
+
+## Windows
+If you planning on using these applications on Windows: go ahead and download them.
+The Server application can be started as is.
+The client needs some arguments:
+```/QbusClient.exe IP_OF_CONTROLLER USERNAME_OF_CONTROLLER PASSWORD_OF_CONTROLLER SERIAL_NR_OF_CONTROLLER RECONNECT_TIMEOUT_IN_MINUTES(5)```
+
+## Linux (raspberryPi)
+Here you can find the installer for the Client Server:
+[QbusClientServer-Installer](https://github.com/QbusKoen/QbusClientServer-Installer)
+>>>>>>> 86910bc1bb721fe0d804012dc9dbd5bab097f0af
